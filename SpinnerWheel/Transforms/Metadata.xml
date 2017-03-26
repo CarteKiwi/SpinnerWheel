@@ -1,0 +1,23 @@
+<metadata>
+  <remove-node path="/api/package[@name='antistatic.spinnerwheel']/class[@name='abstractWheel.SavedState']/method[@name='creator']" />
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheel']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheelView']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='WheelVerticalView']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='WheelHorizontalView']" name="obfuscated">false</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheel']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheelView']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='WheelVerticalView']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='WheelHorizontalView']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheelView']/method[@name='setSelectorPaintCoeff']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='WheelVerticalView']/method[@name='setSelectorPaintCoeff']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='WheelHorizontalView']/method[@name='setSelectorPaintCoeff']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheel']/method[@name='onRestoreInstanceState']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheel']/method[@name='onSaveInstanceState']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheel.SavedState']/method[@name='creator']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='AbstractWheelTextAdapter']/method[@name='getItemText']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='ArrayWheelAdapter']/method[@name='getItemText']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='ArrayWheelAdapter']/method[@name='getItemText']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='NumericWheelAdapter']/method[@name='getItemTextFormatted']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='NumericWheelAdapter']/method[@name='getItemText']" name="visibility">public</attr>
+  <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='AbstractWheelTextAdapterInvoker']/method[@name='getItemText']" name="visibility">protected</attr>
+</metadata>

@@ -1,0 +1,5 @@
+C:\Projects\Others\SpinnerWheel\SpinnerWheel\bin\Debug\SpinnerWheel.dll
+C:\Projects\Others\SpinnerWheel\SpinnerWheel\bin\Debug\SpinnerWheel.pdb
+C:\Projects\Others\SpinnerWheel\SpinnerWheel\obj\Debug\SpinnerWheel.csprojResolveAssemblyReference.cache
+C:\Projects\Others\SpinnerWheel\SpinnerWheel\obj\Debug\SpinnerWheel.dll
+C:\Projects\Others\SpinnerWheel\SpinnerWheel\obj\Debug\SpinnerWheel.pdb
