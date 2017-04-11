@@ -14,6 +14,14 @@
     <FileAlignment>512</FileAlignment>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <PackageId>SpinnerWheel</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Guillaume DEMICHELI</Authors>
+    <Description>Xamarin Android Bindings library. SpinnerWheel is a picker control.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Guillaume DEMICHELI. All rights reserved.</Copyright>
+    <PackageTags>spinner wheel picker android</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,6 +42,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="NineOldAndroids, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Xamarin.NineOldAndroids.0.0.1\lib\MonoAndroid\NineOldAndroids.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
@@ -44,6 +55,7 @@
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
     <LibraryProjectZip Include="Jars\SpinnerWheel.aar" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

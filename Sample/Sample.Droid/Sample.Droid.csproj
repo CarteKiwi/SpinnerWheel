@@ -53,13 +53,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\DayArrayAdapter.cs" />
+    <Compile Include="Adapters\EnumArrayAdapter.cs" />
+    <Compile Include="Adapters\IntervalMinuteArrayAdapter.cs" />
+    <Compile Include="Colors.cs" />
+    <Compile Include="Controls\WheelPicker.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="ObjectTypeHelper.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\time_picker_custom_day.axml" />
+    <AndroidResource Include="Resources\layout\WheelPicker.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\WheelTextCentered.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -80,6 +92,12 @@
       <Project>{9979005a-5b51-4456-923b-0c729774794d}</Project>
       <Name>SpinnerWheel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\divider_dark_gradient_horizontal.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\colors.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

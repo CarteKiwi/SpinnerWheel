@@ -16,8 +16,9 @@
   <attr path="/api/package[@name='antistatic.spinnerwheel']/class[@name='AbstractWheel.SavedState']/method[@name='creator']" name="visibility">protected</attr>
   <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='AbstractWheelTextAdapter']/method[@name='getItemText']" name="visibility">public</attr>
   <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='ArrayWheelAdapter']/method[@name='getItemText']" name="visibility">public</attr>
-  <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='ArrayWheelAdapter']/method[@name='getItemText']" name="visibility">public</attr>
   <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='NumericWheelAdapter']/method[@name='getItemTextFormatted']" name="visibility">public</attr>
   <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='NumericWheelAdapter']/method[@name='getItemText']" name="visibility">public</attr>
   <attr path="/api/package[@name='antistatic.spinnerwheel.adapters']/class[@name='AbstractWheelTextAdapterInvoker']/method[@name='getItemText']" name="visibility">protected</attr>
+
 </metadata>
+

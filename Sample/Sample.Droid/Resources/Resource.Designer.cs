@@ -77,20 +77,45 @@ namespace Sample.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int blackSoftLight = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int bluecolor = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int whitecolor = 2131034113;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int divider_dark_gradient_horizontal = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int wheel_bg_hor = 2130837505;
+			public const int Icon = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int wheel_bg_ver = 2130837506;
+			public const int wheel_bg_hor = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int wheel_val = 2130837507;
+			public const int wheel_bg_ver = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int wheel_val = 2130837508;
 			
 			static Drawable()
 			{
@@ -104,6 +129,39 @@ namespace Sample.Droid
 		
 		public partial class Id
 		{
+			
+			// aapt resource value: 0x7f040005
+			public const int alertButton = 2130968581;
+			
+			// aapt resource value: 0x7f04000a
+			public const int ampmSpinner = 2130968586;
+			
+			// aapt resource value: 0x7f040004
+			public const int cancelButton = 2130968580;
+			
+			// aapt resource value: 0x7f040007
+			public const int daySpinner = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int hourSpinner = 2130968584;
+			
+			// aapt resource value: 0x7f040002
+			public const int menu = 2130968578;
+			
+			// aapt resource value: 0x7f040009
+			public const int minSpinner = 2130968585;
+			
+			// aapt resource value: 0x7f04000b
+			public const int text = 2130968587;
+			
+			// aapt resource value: 0x7f040001
+			public const int time2_monthday = 2130968577;
+			
+			// aapt resource value: 0x7f040006
+			public const int validateButton = 2130968582;
+			
+			// aapt resource value: 0x7f040003
+			public const int wheelMenu = 2130968579;
 			
 			// aapt resource value: 0x7f040000
 			public const int wheel_text_view_configured_state = 2130968576;
@@ -124,6 +182,15 @@ namespace Sample.Droid
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int time_picker_custom_day = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int WheelPicker = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int WheelTextCentered = 2130903043;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -137,11 +204,11 @@ namespace Sample.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int ApplicationName = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int ApplicationName = 2131099649;
 			
-			// aapt resource value: 0x7f050000
-			public const int Hello = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Hello = 2131099648;
 			
 			static String()
 			{
