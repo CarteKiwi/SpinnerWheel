@@ -63,14 +63,14 @@ namespace Sample.Droid.Controls
             Inflate(Context, Resource.Layout.WheelPicker, this);
 
             var title = (Button)FindViewById(Resource.Id.alertButton);
-            title.Text = "Picker";
+            title.Text = "PICKER";
 
             CancelButton = (Button)FindViewById(Resource.Id.cancelButton);
             ValidateButton = (Button)FindViewById(Resource.Id.validateButton);
             Menu = (LinearLayout)FindViewById(Resource.Id.menu);
 
-            CancelButton.Text = "Cancel";
-            ValidateButton.Text = "Validate";
+            CancelButton.Text = "CANCEL";
+            ValidateButton.Text = "VALIDATE";
 
             CancelButton.SetOnClickListener(this);
             ValidateButton.SetOnClickListener(this);
@@ -219,13 +219,16 @@ namespace Sample.Droid.Controls
             _daySpinner.SetCurrentItem(index, true);
 
             _hoursSpinner = (AbstractWheelView)FindViewById(Resource.Id.hourSpinner);
-            _hoursSpinner.SetCurrentItem(value.Hour - 1, true);
+            _hoursSpinner.SetCurrentItem(value.Hour - _hourStartIndex, true);
 
             _minSpinner = (AbstractWheelView)FindViewById(Resource.Id.minSpinner);
             _minSpinner.SetCurrentItem(value.Minute / 15, true);
 
             _ampm = (AbstractWheelView)FindViewById(Resource.Id.ampmSpinner);
             _ampm.SetCurrentItem(value.Hour > 12 ? 1 : 0, true);
+
+            if(!IsValid())
+                SetDefault();
         }
 
         private void Hide()

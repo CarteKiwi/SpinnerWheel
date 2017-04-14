@@ -57,6 +57,7 @@
     <Compile Include="Adapters\EnumArrayAdapter.cs" />
     <Compile Include="Adapters\IntervalMinuteArrayAdapter.cs" />
     <Compile Include="Colors.cs" />
+    <Compile Include="Command.cs" />
     <Compile Include="Controls\WheelPicker.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="MainActivity.cs" />

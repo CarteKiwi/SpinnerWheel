@@ -130,38 +130,50 @@ namespace Sample.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040005
-			public const int alertButton = 2130968581;
-			
-			// aapt resource value: 0x7f04000a
-			public const int ampmSpinner = 2130968586;
-			
-			// aapt resource value: 0x7f040004
-			public const int cancelButton = 2130968580;
-			
-			// aapt resource value: 0x7f040007
-			public const int daySpinner = 2130968583;
-			
-			// aapt resource value: 0x7f040008
-			public const int hourSpinner = 2130968584;
-			
-			// aapt resource value: 0x7f040002
-			public const int menu = 2130968578;
-			
 			// aapt resource value: 0x7f040009
-			public const int minSpinner = 2130968585;
+			public const int alertButton = 2130968585;
 			
-			// aapt resource value: 0x7f04000b
-			public const int text = 2130968587;
-			
-			// aapt resource value: 0x7f040001
-			public const int time2_monthday = 2130968577;
-			
-			// aapt resource value: 0x7f040006
-			public const int validateButton = 2130968582;
+			// aapt resource value: 0x7f04000e
+			public const int ampmSpinner = 2130968590;
 			
 			// aapt resource value: 0x7f040003
-			public const int wheelMenu = 2130968579;
+			public const int btn = 2130968579;
+			
+			// aapt resource value: 0x7f040008
+			public const int cancelButton = 2130968584;
+			
+			// aapt resource value: 0x7f04000b
+			public const int daySpinner = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int hourSpinner = 2130968588;
+			
+			// aapt resource value: 0x7f040006
+			public const int menu = 2130968582;
+			
+			// aapt resource value: 0x7f04000d
+			public const int minSpinner = 2130968589;
+			
+			// aapt resource value: 0x7f04000f
+			public const int text = 2130968591;
+			
+			// aapt resource value: 0x7f040005
+			public const int time2_monthday = 2130968581;
+			
+			// aapt resource value: 0x7f040001
+			public const int txtDate = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int txtTime = 2130968578;
+			
+			// aapt resource value: 0x7f04000a
+			public const int validateButton = 2130968586;
+			
+			// aapt resource value: 0x7f040007
+			public const int wheelMenu = 2130968583;
+			
+			// aapt resource value: 0x7f040004
+			public const int wheelPicker = 2130968580;
 			
 			// aapt resource value: 0x7f040000
 			public const int wheel_text_view_configured_state = 2130968576;
